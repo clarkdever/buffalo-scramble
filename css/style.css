@@ -300,9 +300,11 @@ strong {
   margin: 0 -2px;
   text-align: center;
 }
+
 .list-we p {
-  text-align: left;
+  text-align: center;
 }
+
 .profile {
   max-width: 300px;
   margin: 0 auto;
