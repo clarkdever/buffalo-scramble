@@ -80,6 +80,13 @@ strong {
   right: 25px;
   top: 25px;
 }
+
+#nav-schedule {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+}
+
 .btn-backtop {
   display: none;
   position: fixed;
@@ -309,18 +316,29 @@ strong {
   max-width: 300px;
   margin: 0 auto;
 }
-.profile .imgbox {
+
+.imgbox {
   width: 175px;
   height: 175px;
-  border-radius: 200px;
+  border-radius: 300px;
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 20px;
 }
-.profile h4 {
-  font-size: 28px;
+.keynote .body-inner h4 {
+  font-size: 24px;
   color: #444C3D;
+  text-align: center;
 }
+
+h3 {
+  font-size: 34px;
+  color: #444C3D;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*.keynote .body-inner */
 .overlay {
   position: fixed;
   width: 100%;
@@ -561,6 +579,7 @@ textarea.input-overlay {
   -ms-transition: all .4s ease;
   -o-transition: all .4s ease;
   transition: all .4s ease;
+  font-size: 40px;
 }
 .transition3 {
   -webkit-transition: all .8s ease;
@@ -628,6 +647,9 @@ textarea.input-overlay {
     margin-top: 5px;
     left: 0px;
   }
+
+
+
   .quickmodal {
     width: 680px;
     margin-left: -340px;
