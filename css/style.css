@@ -589,6 +589,10 @@ textarea.input-overlay {
   transition: all .8s ease;
 }
 
+.w-15 {
+  width:15%;
+}
+
 
 @media screen and (min-width: 1024px)
 {
