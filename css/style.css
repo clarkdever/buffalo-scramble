@@ -46,7 +46,7 @@ strong {
   font-weight: 700;
 }
 .btn-primary {
-  background-color: #D06B4E;  
+  background-color: #D06B4E;
   border: 0px;
   font-family:Lato, HelveticaNeueLT-Roman, Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -255,6 +255,11 @@ strong {
   background-color: #FFF;
   opacity:.18;
 }
+
+.blue {
+  color:#3498db;
+}
+
 .grey {
   background-color:#F0F1F0;
 }
@@ -440,7 +445,7 @@ h3 {
   text-transform: uppercase;
   font-size: 16px;
 }
-.input-overlay:-ms-input-placeholder {  
+.input-overlay:-ms-input-placeholder {
   color: #FFF;
   opacity: .75;
   text-transform: uppercase;
@@ -564,7 +569,7 @@ textarea.input-overlay {
 }
 
 
-.grabbing { 
+.grabbing {
   cursor:url(../img/grabbing.png) 8 8, move;
 }
 .transition {
@@ -698,7 +703,7 @@ textarea.input-overlay {
     opacity: 1;
     visibility: visible;
   }
-  
+
   .promo {
     position: relative;
     height: 620px;
@@ -751,7 +756,7 @@ textarea.input-overlay {
     margin-top: 5px;
     left: 0px;
   }
-  
+
   .footercta {
     max-width: 90%;
   }
@@ -768,7 +773,7 @@ textarea.input-overlay {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 35px;
-    max-height: 100%; 
+    max-height: 100%;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
@@ -812,7 +817,7 @@ textarea.input-overlay {
   .modal-body .btn-large {
     padding: 13px 12px;
   }
-  
+
   .copy {
     font-size: 12px;
   }
